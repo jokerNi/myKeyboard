@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *myTextView;
+
+@property(nonatomic, retain) UIToolbar *keyboardToolbar;
+
+
 @end
